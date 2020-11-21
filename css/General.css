@@ -1,0 +1,486 @@
+﻿.carrito-caja {
+    border: 1px solid #ddd;
+    float: right;
+    font-size: 18px;
+    margin-top: 40px;
+    padding: 10px;
+    position: relative;
+}
+
+    .carrito-caja a {
+        color: #666;
+    }
+
+
+
+.carrito-caja i.fa {
+    margin-left: 15px;
+}
+
+
+.carrito-caja:hover {
+    background: none repeat scroll 0 0 #5a88ca;
+    border-color: #5a88ca;
+}
+
+    .carrito-caja:hover a {
+        color: #fff;
+        text-decoration: none
+    }
+
+    .carrito-caja:hover .monto {
+        color: #fff;
+    }
+
+    .carrito-caja:hover .product-count {
+        background: none repeat scroll 0 0 #000;
+    }
+
+
+.barra-principal {
+    background: none repeat scroll 0 0 #fbfbfb;
+    font-family: "Roboto Condensed",sans-serif;
+    text-transform: uppercase;
+    width: 100%;
+    z-index: 999;
+}
+
+    .barra-principal ul.navbar-nav li a {
+        color: #6e6a6a;
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .barra-principal ul.navbar-nav li:hover a, .barra-principal ul.navbar-nav li.active a {
+        background: #5a88ca;
+        color: #FFF;
+    }
+
+    .barra-principal .nav > li > a:focus {
+        color: #FFF;
+    }
+
+.iconos-abajo {
+    background: #fbfbfb;
+    color: #fff;
+    padding: 40px 0 40px;
+}
+
+
+.iconos-abajo .botones-abajo, .brands-area .botones-abajo {
+    background: #f4f4f4
+
+}
+
+.single-promo {
+    font-size: 25px;
+    font-weight: 200;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+    .single-promo i {
+        font-size: 50px;
+    }
+
+    .single-promo:hover {
+        color: #fff;
+        background: #222;
+    }
+
+.promo1 {
+    background: #2e7e83;
+}
+
+.promo2 {
+    background: #a7be34;
+}
+
+.promo3 {
+    background: #d33131;
+}
+
+.promo4 {
+    background: #5a88ca;
+}
+
+
+.footer-top-area .botones-abajo {
+    background: #f4f4f4
+}
+
+.footer-top-area {
+    background: none repeat scroll 0 0 #333;
+    color: #999;
+    padding: 5px 0 30px;
+}
+
+.titulo-shop {
+    background: url(img/crossword.png) repeat scroll 0 0 #5a88ca
+}
+
+.shop-titulo h2 {
+    font-family: raleway;
+    font-size: 50px;
+    font-weight: 200;
+    margin: 0;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.single-product-area .botones-abajo {
+    background-color: #f4f4f4
+}
+
+.product-carousel-price ins {
+    color: #5a88ca;
+    font-weight: 700;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.product-option-shop {
+    margin-top: 15px;
+}
+
+.single-shop-product {
+    margin-bottom: 50px
+}
+
+.add_to_cart_button {
+    background: none repeat scroll 0 0 #5a88ca;
+    border: medium none;
+    color: #fff;
+    padding: 6px 25px;
+    margin-top: 15px;
+    display: inline-block
+}
+
+    .add_to_cart_button:hover {
+        background-color: #222;
+        color: #fff;
+        text-decoration: none
+    }
+
+div.cart-collaterals ul.products li.product:hover .add_to_cart_button {
+    background-color: #222
+}
+
+.single-product-area .zigzag-bottom {
+    background-color: #f4f4f4
+}
+
+.single-product-area {
+    padding: 50px 0 90px;
+}
+
+.sidebar-title {
+    color: #fead53;
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.single-sidebar {
+    margin-bottom: 50px;
+}
+
+.single-sidebar input[type="text"] {
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+
+.single-sidebar > ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.single-sidebar li {
+    border-bottom: 1px solid #f1f1f1;
+    padding: 10px 0;
+
+}
+
+.single-sidebar a {
+    display: block;
+}
+
+.thubmnail-recent {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.recent-thumb {
+    float: left;
+    height: auto;
+    margin-right: 15px;
+    width: 63px;
+}
+
+.thubmnail-recent > h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.thubmnail-recent > h2 a {
+    color: #222;
+
+}
+
+.product-sidebar-price > ins {
+    color: #5a88ca;
+    font-weight: 700;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.product-breadcroumb {
+    margin-bottom: 20px;
+}
+
+.product-breadcroumb > a {
+    margin-right: 31px;
+    position: relative;
+
+}
+
+.product-breadcroumb > a::before {
+    content: "/";
+    position: absolute;
+    right: -20px;
+    top: 2px;
+
+}
+
+.product-breadcroumb > a:last-child::before {
+    display: none;
+
+}
+
+.product-main-img {
+    margin-bottom: 20px;
+}
+
+.product-gallery {
+    margin-bottom: 25px;
+    margin-left: -15px;
+    overflow: hidden;
+}
+
+.product-gallery img {
+    height: auto;
+    margin-left: 15px;
+    width: 76px;
+}
+
+.product-inner-price {
+    margin-bottom: 25px;
+}
+
+.product-inner-price > ins {
+    color: #5a88ca;
+    font-weight: 700;
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+
+.product-inner-category {
+    margin-bottom: 30px;
+}
+
+.latest-product .owl-nav div, .related-products-wrapper .owl-nav div {
+    background: #fa8072;
+    color: #FFF;
+    display: inline-block;
+    margin-left: 15px;
+    padding: 1px 10px;
+}
+
+.latest-product .owl-nav div:hover, .brand-wrapper .owl-nav div:hover, .related-products-wrapper .owl-nav div:hover {
+    color: #FFF;
+    background: #f95f5f;
+}   
+
+
+.brand-list {
+    padding-top: 40px;
+}
+
+.brand-list .owl-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.related-products-wrapper {
+    margin-top: 30px;
+}
+
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.woocommerce-info {
+    background: none repeat scroll 0 0 #f4f4f4;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.cart-collaterals {
+    overflow: hidden;
+}
+
+.cart-collaterals h2 {
+    color: #5a88ca;
+    font-size: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+div.cart-collaterals ul.products {
+    list-style: outside none none;
+    margin: 0 0 0 -30px;
+    padding: 0;
+}
+
+div.cart-collaterals ul.products li.product {
+    float: left;
+margin-left: 30px;
+position: relative;
+width: 198px;
+}
+
+.cart_totals {
+    float: right;
+    margin-bottom: 50px;
+    width: 40%;
+}
+
+.cart_totals table {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    width: 100%;
+}
+
+
+.cart_totals table th, .cart_totals table td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
+.cart_totals table th {
+    background: none repeat scroll 0 0 #f4f4f4;
+}
+
+
+div.cart-collaterals ul.products li.product .onsale {
+    background: none repeat scroll 0 0 #5a88ca;
+    color: #fff;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+}
+
+div.cart-collaterals ul.products li.product h3 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+div.cart-collaterals ul.products li.product .price {
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+
+div.cart-collaterals ul.products li.product .price ins {
+    color: #5a88ca;
+    font-weight: 700;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+
+.woocommerce-info {
+    background: none repeat scroll 0 0 #f4f4f4;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.cross-sells {
+    float: left;
+    margin-right: 3%;
+    width: 57%;
+}
+
+td.actions div.coupon {
+    float: left;
+}
+
+table.shop_table {
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+table.shop_table th, table.shop_table td {
+    border-left: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+
+}
+
+table.shop_table th {
+    background: none repeat scroll 0 0 #f4f4f4;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.woocommerce-info {
+    background: none repeat scroll 0 0 #f4f4f4;
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.col2-set {
+    margin-left: -30px;
+    overflow: hidden;
+}
+
+.col-1, .col-2 {
+    float: left;
+    margin-left: 30px;
+    width: 360px;
+}
+
+#customer_details label {
+    display: block;
+    margin: 0 0 10px;
+}
+
+#customer_details input[type="text"]{
+    margin-bottom: 20px;
+    width: 100%;
+}
